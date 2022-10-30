@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class EaercizioNumeriPrimi {
+
+	public static void main(String[] args) {
+		Scanner tast = new Scanner(System.in);
+		System.out.println("Inserisci il numero");
+
+		int numero = tast.nextInt();
+		int index = 1;
+		int conta = 0;
+
+		while (index <= numero) {
+			if (numero % index == 0) {
+				conta++;
+
+			} else {
+				conta += 0;
+			}
+			index++;
+		}
+		if (conta == 2) {
+			System.out.println(numero + " è un numero primo");
+		} else {
+			System.out.println(numero + " non è un numero primo");
+		}
+	}
+}
