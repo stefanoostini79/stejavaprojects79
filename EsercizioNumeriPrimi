@@ -1,3 +1,5 @@
+package stefano1Corso;
+
 import java.util.Scanner;
 
 public class EaercizioNumeriPrimi {
